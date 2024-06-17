@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML Links
+        </title>
+    </head>
+    <body>
+        <p>Click any of the following links</p>
+        <a href="https://www.google.com/"
+        target="_blank"
+        >
+        Opens in new
+    </a>
+    <a href="https://www.google.com/"
+    target="_self">
+    Opens in self
+</a>
+<a href="https://www.google.com/"
+target="_parent">
+Opens in parent
+</a>
+<a href="https://www.google.com/"
+target="_top">
+Opens in body
+</a>
+<a href="https://mail.google.com/mail/u/0/#inbox"
+target="_mail">
+Send mail
+</a>
+</body>
+</html>
