@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Task-4</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+   
+        <style>
+        #nv a {
+            position: absolute;
+            left: -100px;
+            transition: 0.5s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+        }
+
+        #nv a:hover {
+            left: 10px;
+        }
+
+        #html {
+            top: 30px;
+            background-color: green;
+        }
+
+        #css {
+            top: 90px;
+            background-color: blue;
+        }
+
+        #bts {
+            top: 150px;
+            background-color: red;
+        }
+
+        #js {
+            top: 220px;
+            background-color: grey;
+        }
+        </style>
+        </head>
+        <body>
+
+        <div id="nv">
+        <a href="#" id="html">HTML</a>
+        <a href="#" id="css">CSS</a>
+        <a href="#" id="bts">Bootstrap</a>
+        <a href="#" id="js">Javascript</a>
+        </div>
+
+        <div style="margin-left:100px;">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+        </div>
+   
+</body>
+</html> 
