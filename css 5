@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Task-5</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <style>
+    body {
+      padding-left: 200px;
+      font-family: Arial;
+      color: purple;
+      background-color:yellow; }
+
+    ul.nv {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        width: 150px;
+       }
+    h1 {
+      font-family: Arial;
+    }
+    ul.nv li {
+        background: white;
+        margin: 8px 0;
+        padding: 6px;
+        border-right: 8px solid black }
+    ul.nv a {
+       text-decoration: none }
+    a:link {
+        color: blue }
+</style>
+<body>
+<ul class="nv">
+  <li><a href="">Home page</a>
+  <li><a href="">Musings</a>
+  <li><a href="">My town</a>
+  <li><a href="">Links</a>
+</ul>
+
+<h1>My first styled page</h1>
+<p>Welcome to my styled page!</p>
+<p>It lacks images, but at least it has style.
+And it has links, even if they don't go
+anywhere.</p>
+<p>There should be more here, but I don't know
+what yet.</p>
+
+<cite>Made 14 June 2023 <br> by myself</cite>
+
+</body>
+</html>
