@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-7</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #750751;
+            color: rgb(255, 255, 255);
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 400px;
+            height:500px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color:rgb(218, 10, 169);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="password"],
+        .form-group input[type="number"],
+        .form-group select {
+            flex: 1;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            margin-left: 100px;
+        }
+
+        .form-group input[type="radio"] {
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 13px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .error-message {
+            color: red;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border: none;
+            color: #000000;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            width:400px;
+        }
+
+        button:hover {
+            background-color: #6b6b6b;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <form id="orderForm" action="#" method="post">
+        <div class="form-group">
+            <label>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="name" name="name" placeholder="your name"required></label>
+        </div>
+        <div class="form-group">
+            <label>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="email" name="email" placeholder="your email"required></label>
+        </div>
+        <div class="form-group">
+            <label>Password:<input type="password" id="pass" name="pass" required></label>
+        </div>
+        <div class="form-group">
+            <label>Phone No:<input type="text" id="phone" name="phone" required></label>
+        </div>
+        <div class="form-group">
+            <label>Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="male" name="gender" value="male">
+            Male
+            <input type="radio" id="female" name="gender" value="female">
+            Female
+            <input type="radio" id="other" name="gender" value="other">
+            Other</label>
+        </div>
+        <div class="form-group">
+            <label>Language:
+            <select>
+                <option>--Select Language--</option>
+                <option>Hindi</option>
+                <option>English</option>
+                <option>Tamil</option>
+                <option>Telugu</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Zip Code:<input type="number" id="pin" name="pin" required></label>
+        </div>
+        <div class="form-group">
+            <label>About:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="about" name="about" required placeholder="about yourself"></label>
+        </div>
+        <br><br>
+        <div class="form-group">
+            <button type="button"><b>Register</b></button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
